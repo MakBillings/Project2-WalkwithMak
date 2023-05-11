@@ -1,3 +1,23 @@
+/* imported fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Rock+Salt&family=Signika+Negative&display=swap');
+/* end imporated fonts */
+
+/* start text */
+*{
+    font-family: 'Roboto Slab', serif;
+}
+
+h1, h2 {
+    font-family: 'Signika Negative', sans-serif;
+}
+
+/* end text */
+
+/* start hero */
+#hero h1{
+    font-family: 'Rock Salt', cursive;
+}
+/* end hero */
 img {
     height:450px;
     width:auto
