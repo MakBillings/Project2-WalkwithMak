@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>get-to-know-you-form</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<!-- start header -->
+    <div>
+        <h1>let us get to know your pup!</h1>
+    </div>
+<!-- end header -->
+
+<!-- start form -->
+    <div class="infomationform">
+        <form action="www.example2.com"></form>
+        <fieldset>
+            <legend> Your Details </legend>
+            <label for="name">name:
+                <input type="text" name="name">
+            </label>
+            <br>
+            <label for="phone number">phone number:
+                <input type="text" name="phone number">
+            </label>
+            <br>
+            <label for="email">email:
+                <input type="email" name="email">
+            </label>
+            <br>
+            <p>are you interested in a regular scheduled walking service?</p>
+            <label>
+                <input type="radio" value="yes">
+                yes
+            </label>
+            <label>
+                <input type="radio" value="no">
+                no
+            </label>
+            <label>
+                <input type="radio" value="maybe">
+                maybe
+            </label>
+            <br>
+            <br>
+            <label for="hear-about">how did you hear about us?</label>
+            <select name="referrer" id="hear-about">
+                <option value="google">google</option>
+                <option value="friend">friend</option>
+                <option value="advertisment">advertisment</option>
+                <option value="other">other</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Your Pet's details</legend>
+            <label for="name">name
+                <input type="text" for="name">
+            </label>
+            <br>
+            <label for="age">age
+                <input type="number" for="age">
+            </label>
+            <br>
+            <label for="gender">gender</label>
+            <select name="gender" id="gender">
+                <option value="male">male</option>
+                <option value="female">female</option>
+            </select>
+            <br>
+            <label for="temperment">Briefly describe your dogs temperment.</label>
+            <br>
+            <textarea name="temperment" id="temperment" cols="60" rows="8"></textarea>
+            <br>
+            <label for="exercise">Briefly describe your dogs exercise needs.</label>
+            <br>
+            <textarea name="exercise" id="exercise" cols="60" rows="8"></textarea>
+            <br>
+            <p>does your dog interact well with other dogs?</p>
+            <label>
+                <input type="radio" value="yes">
+                yes
+            </label>
+            <label>
+                <input type="radio" value="no">
+                no
+            </label>
+            <br>
+            <p>uploud a photo of your pet here:</p>
+            <input type="file" name="pet-image">
+            <input type="submit" value="Upload">
+            <br>
+            <br>
+            <input type="submit" value="Submit Form">
+        </fieldset>
+    </div>
+<!-- end form -->
+
+<!-- start footer -->
+    <div class="footer">
+        <a href="index.html">back to home page</a>
+    </div>
+<!-- end footer -->
+</body>
+</html>
